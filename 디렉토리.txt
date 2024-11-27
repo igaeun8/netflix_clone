@@ -8,6 +8,8 @@
 │    |	├── 📄 ModalManager.jsx
 │    |	├── 📄 MovieRow.jsx
 │    |	├── 📄 SignupModal.jsx
+│    ├── 📂 hooks
+│    |	├── 📄 useWishlist.js
 │    ├── 📂 pages
 │    |	├── 📄 AuthPage.jsx
 │    |	├── 📄 Home.jsx
@@ -25,3 +27,18 @@
 │    |	├── 📄 PopularPage.css
 │    |	├── 📄 SignupModal.css
 │    |	├── 📄 WishlistPage.css
+│    ├── 📂 utils
+│    |	├── 📄 Authentication.js
+│    |	├── 📄 tmdb.js
+│    |	├── 📄 URL.js
+│    |── 📄 App.css
+│    |── 📄 App.js
+│    |── 📄 App.test.js
+│    |── 📄 index.css
+│    |── 📄 index.js
+│    |── 📄 App.css
+│    |── 📄 logo.svg
+│    |── 📄 reportWebVitals.js
+│    |── 📄 setupTests.js
+
+
