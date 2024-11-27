@@ -1,0 +1,107 @@
+/* src/styles/SignupModal.css */
+
+/* 회원가입 모달을 감싸는 전체 화면 배경 */
+.signup_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1); /* 배경 완전 검정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* 다른 요소 위로 띄우기 */
+  }
+  
+  /* 회원가입 모달 박스 */
+  .signup_modal {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff; /* 모달 내부는 흰색 */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* 제목 스타일 */
+  .signup_modal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* 입력 필드 스타일 */
+  .signup_modal input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .signup_modal input::placeholder {
+    color: #999;
+  }
+  
+  /* 회원가입 버튼 스타일 */
+  .signup_modal button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup_modal button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* 에러 메시지 스타일 */
+  .error_message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* 로그인 전환 버튼 스타일 */
+  .signup_modal button {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .signup_modal button:hover {
+    color: #555;
+  }
+  
+  /* 계정 생성 텍스트 */
+  .signup_modal p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .signup_modal p button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .signup_modal p button:hover {
+    color: #555;
+  }
+  

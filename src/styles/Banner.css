@@ -1,0 +1,63 @@
+/* src/styles/Banner.css */
+
+.banner {
+  height: 800px; /* 배너의 높이를 크게 설정 */
+  background-size: cover; /* 배경 이미지가 배너를 완전히 덮도록 설정 */
+  background-position: center; /* 배경 이미지가 중앙에 오도록 설정 */
+  color: white;
+  object-fit: contain;
+  position: relative;
+}
+
+.banner__contents {
+  padding: 20px;
+  position: absolute; /* 배너 상단에 콘텐츠 배치 */
+  top: 40%; /* 콘텐츠가 배너의 중간에 오도록 설정 */
+  left: 30px;
+  width: 50%; /* 콘텐츠 영역 너비 설정 */
+}
+
+.banner__title {
+  font-size: 3rem; /* 제목 크기 키우기 */
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.banner__description {
+  font-size: 1.2rem;
+  width: 80%; /* 설명 영역 크기 조정 */
+  margin-top: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 4줄까지만 표시 */
+  -webkit-box-orient: vertical;
+  overflow: hidden; /* 넘치는 텍스트는 숨기기 */
+  text-overflow: ellipsis; /* ...으로 중단 표시 */
+}
+
+
+.banner__buttons {
+  margin-top: 20px;
+}
+
+.banner__button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #e50914; /* Netflix 빨간색 */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner__button:hover {
+  background-color: #b20710; /* 버튼 호버 시 색상 변경 */
+}
+
+.banner__fadeBottom {
+  height: 7.4rem; /* 배너 하단에 흐림 효과 추가 */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

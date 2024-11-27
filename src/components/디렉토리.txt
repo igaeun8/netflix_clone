@@ -1,0 +1,27 @@
+1. 
+├── 📂 src
+│   ├── 📂 components
+│    |	├── 📄 Banner.jsx
+│    |	├── 📄 ContentGrid.jsx
+│    |	├── 📄 Header.jsx
+│    |	├── 📄 LoginModal.jsx
+│    |	├── 📄 ModalManager.jsx
+│    |	├── 📄 MovieRow.jsx
+│    |	├── 📄 SignupModal.jsx
+│    ├── 📂 pages
+│    |	├── 📄 AuthPage.jsx
+│    |	├── 📄 Home.jsx
+│    |	├── 📄 PopularPage.jsx
+│    |	├── 📄 SearchPage.jsx
+│    |	├── 📄 WishlistPage.jsx
+│    ├── 📂 styles
+│    |	├── 📄 Auth.css
+│    |	├── 📄 Banner.css
+│    |	├── 📄 ContentGrid.css
+│    |	├── 📄 Header.css
+│    |	├── 📄 LoginModal.css
+│    |	├── 📄 Modal.css
+│    |	├── 📄 MovieRow.css
+│    |	├── 📄 PopularPage.css
+│    |	├── 📄 SignupModal.css
+│    |	├── 📄 WishlistPage.css

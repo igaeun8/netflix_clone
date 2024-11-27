@@ -1,0 +1,84 @@
+/* 공통 스타일 */
+.header {
+  display: flex;
+  justify-content: space-between; /* 왼쪽과 오른쪽 정렬 */
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #141414;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box; /* 패딩 포함하여 크기 계산 */
+}
+
+.header__navigation {
+  display: flex;
+  flex: 1; /* 네비게이션 바가 전체 너비 차지 */
+  justify-content: space-around; /* 버튼들 사이 간격 균등 */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navigation li {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header__navigation li a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: white; /* 기본 텍스트 색상 */
+  display: flex; /* 아이콘과 텍스트 정렬 */
+  align-items: center;
+  gap: 5px; /* 아이콘과 텍스트 간격 */
+}
+
+.header__navigation li a:hover {
+  color: #e50914; /* 호버 시 Netflix 빨간색으로 강조 */
+}
+
+.header__logo {
+  height: 35px;
+  cursor: pointer;
+}
+
+.header__userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 수평 중앙 정렬 */
+  position: relative; /* 필요시 위치 조정 */
+}
+
+.header__profileIcon {
+  font-size: 24px; /* Font Awesome 아이콘 크기 */
+  color: white;
+  cursor: pointer;
+}
+
+.header__profileIcon:hover {
+  color: #e50914; /* 호버 시 색상 변경 */
+}
+
+/* 아이콘 스타일 */
+.header__icon {
+  font-size: 16px; /* 네비게이션 아이콘 크기 */
+  color: white;
+}
+
+.header__icon:hover {
+  color: #e50914; /* 호버 시 색상 변경 */
+}
+
+.header__ticketIcon {
+  font-size: 32px; /* 로고 크기 */
+  color: #e50914; /* 빨간색 */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* 부드러운 애니메이션 */
+}
+
+.header__ticketIcon:hover {
+  transform: scale(1.1); /* 호버 시 살짝 확대 */
+}

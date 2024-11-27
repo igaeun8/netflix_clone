@@ -1,0 +1,40 @@
+/* src/styles/ContentGrid.css */
+
+.contentGrid {
+    margin: 20px;
+    color: white;
+  }
+  
+  .contentGrid__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contentGrid__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .contentGrid__item {
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .contentGrid__image {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .contentGrid__item:hover {
+    transform: scale(1.05);
+  }
+  
+  .contentGrid__name {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
