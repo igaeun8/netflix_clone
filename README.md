@@ -1,6 +1,9 @@
 # 🎬 넷플릭스 클론 과제
 
 TMDB 데이터를 바탕으로 홈/인기/검색/위시리스트/인증(로그인·회원가입 모달)을 구현한 React 프로젝트입니다. 모달 매니저, 커스텀 훅, 그리드·로우 컴포넌트로 **확장 가능한 UI 구조**를 갖췄습니다.
+<img width="1440" height="793" alt="image" src="https://github.com/user-attachments/assets/dea49ec5-3bde-43f0-becb-ec25d98dd06c" />
+<img width="1440" height="811" alt="image" src="https://github.com/user-attachments/assets/142b453b-1a3d-4165-8be1-ba0ee8799768" />
+<img width="1440" height="814" alt="image" src="https://github.com/user-attachments/assets/402c3792-2b79-47e2-8fbc-0ff8db2597fe" />
 
 ---
 
